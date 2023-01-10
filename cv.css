@@ -193,7 +193,8 @@ li {
 	 filter : saturate(90%);
 	} 
 
-.ma_photo:hover {
+.ma_photo:hover,
+.ma_photo:focus {
 	-webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
 	filter: grayscale(0%);
 	-webkit-filter : saturate(120%); /* Chrome, Safari, Opera */
